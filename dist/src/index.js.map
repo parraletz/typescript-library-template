@@ -1,1 +1,0 @@
-{"version":3,"sources":["../../src/index.ts"],"sourcesContent":["export const greet = (name: string): string => {\n    return `Hello, ${name}!`;\n}"],"names":["greet","name"],"mappings":";;;;+BAAaA;;;eAAAA;;;AAAN,MAAMA,QAAQ,CAACC;IAClB,OAAO,CAAC,OAAO,EAAEA,KAAK,CAAC,CAAC;AAC5B"}
