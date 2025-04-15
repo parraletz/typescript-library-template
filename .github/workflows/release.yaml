@@ -43,3 +43,5 @@ jobs:
       - name: Release
         run: |
           pnpm semantic-release
+        env:
+            GITHUB_TOKEN: ${{ secrets.PAT_GITHUB_TOKEN }}
