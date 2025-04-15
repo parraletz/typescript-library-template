@@ -23,7 +23,7 @@ jobs:
       - name: Install pnpm
         uses: pnpm/action-setup@v4
         with:
-            version: '10'
+            version: '10.6.2'
       - name: Setup Node ⚙️
         uses: actions/setup-node@v4
         with:
@@ -31,7 +31,7 @@ jobs:
       - name: Install dependencies 📦
         run: pnpm install
       - name: Build typescript 📦
-        run: npm run build
+        run: pnpm build
       - name: Commit and push dist folder 🚀
         uses: EndBug/add-and-commit@v9
         with:
@@ -42,4 +42,4 @@ jobs:
           author_email: github-actions@github.com
       - name: Release
         run: |
-          pnpm run semantic-release
+          pnpm semantic-release
