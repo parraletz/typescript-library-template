@@ -1,0 +1,8 @@
+#!/bin/bash
+
+# This script is used to run test cases for the project.
+
+echo "Running test cases..."
+
+pnpm test
+echo "Test cases completed."
